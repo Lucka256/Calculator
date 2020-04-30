@@ -1,0 +1,5 @@
+Simple Calculator app version 1.0
+========================================
+Welcome to program Simple calculator
+Do you want to see the instruction for this calculator? [HELP]
+To exit type to command line: [EXIT]

@@ -1,0 +1,16 @@
+How to compute? Type to command line:
+        [OPERATION] [NUMBER A] [NUMBER B] for example: SUM 1 1
+        For percentageCalculator: [OPERATION] [NUMBER X] mean number in percent and [NUMBER Y]
+        For galons to liters: [OPERATION] [NUMBER]
+
+        You can only use 7 commands:
+                        SUM - for addition
+                        SUB - for substraction
+                        MUL - for multiplication
+                        DIV - for division
+                        PERXT - for calculating percentages x % from totalNumber
+                        PERXY - for calculating percentages x is % from y
+                        GTL - for convertion galons to liters
+                        CTM - for convertion centimeters to meters
+
+                       // you can write like calculator like: ONE SUM ZERO OUT to make calculator sum of two numbers
