@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class PercentageTest {
+public class PercentageCalculatorTest {
 
     private PercentageCalculator percentageCalculator;
 
@@ -15,11 +15,11 @@ public class PercentageTest {
     }
 
     @Test
-    public void ShouldGetZeroPointFortyAfterTaskTwoPercentageOfTwentyTotal() {
+    public void ShouldGetFourNumberAfterCalculate_2_percentageFrom_200() {
 
         final double percentage = 2;
-        final double totalNumber = 20;
-        final double expectedResult = 0.40;
+        final double totalNumber = 200;
+        final double expectedResult = 4;
 
         final double actualResult = percentageCalculator.calculateNumber(percentage, totalNumber);
 
@@ -27,7 +27,7 @@ public class PercentageTest {
     }
 
     @Test
-    public void ShouldGetTenAfterTaskHowManyPercentIsXFromY() {
+    public void ShouldGetTenAfterTaskHowManyPercentIs_2_From_20() {
 
         final double number = 2;
         final double totalNumber = 20;
